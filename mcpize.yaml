@@ -1,0 +1,32 @@
+name: mcp-ai-accountability
+version: 0.1.0
+description: Production MCP server for AI agent reliability scoring, failure analysis and accountability
+author: princeruhulofficial
+license: MIT
+category: AI Infrastructure / Observability
+tags:
+  - reliability
+  - agents
+  - observability
+  - accountability
+  - prevalid
+type: Type-A
+runtime: python
+entry: src.server:mcp
+tools:
+  - record_interaction
+  - get_reliability_score
+  - analyze_failures
+  - recommend_improvements
+  - generate_audit_report
+  - check_mcp_health
+  - start_session
+  - end_session
+pricing:
+  free_tier: 1000 interactions/month
+  pro: 29 USD/month
+  enterprise: custom
+seo:
+  title: MCP AI Accountability – Make AI Agents Trustworthy
+  description: Track tool-call success rates, detect failures, score reliability and get improvement recommendations for any AI agent.
+  keywords: mcp server, ai agent reliability, agent observability, mcp tools, prevalid
